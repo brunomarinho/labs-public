@@ -1,0 +1,35 @@
+{
+  "name": "skimme",
+  "version": "1.0.0",
+  "description": "Hop through song sections in Apple Music using your keyboard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron-prompt": "^1.7.0",
+    "electron-store": "^8.1.0"
+  },
+  "devDependencies": {
+    "electron": "^24.4.0",
+    "electron-builder": "^24.4.0",
+    "electron-localshortcut": "^3.2.1"
+  },
+  "build": {
+    "appId": "com.brunomarinholabs.musicscrub",
+    "mac": {
+      "icon": "icon@2x.png",
+      "category": "public.app-category.music",
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    }
+  }
+}
