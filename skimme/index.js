@@ -157,8 +157,8 @@ function showAbout() {
         type: 'info',
         buttons: ['OK'],
         title: 'About',
-        message: 'This is a Music Control App',
-        detail: 'This app was created to control music on MacOS using global keyboard shortcuts. Use the Left arrow to rewind and the Right arrow to forward. You can customize the time interval for these operations.',
+        message: 'Skimme — Hop through song sections in Apple Music using your keyboard.',
+        detail: 'Simplify your journey to mastering songs with Skimme, a MacOS system tray app for Apple Music. Using your keyboard arrows, you can effortlessly rewind or advance the playhead during song playback.',
     });
 }
 
